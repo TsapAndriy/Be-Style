@@ -1,0 +1,90 @@
+body {
+	margin: 0;
+}
+.navigation {
+   list-style: none; /* Отключение отображения маркеров. */
+      width: 100%;
+	  margin: 10% auto;
+ }
+.navigation li {
+   float: left; /* Выстраивание элементов списка в один ряд. */
+   margin-right: 1px; /* создание отступов для того, чтобы не сливались пункты меню. */
+   font-family: Verdana, Arial, Helvetica, sans-serif; /* Указание типа шрифта. */
+   font-size: 14px; /* Размер текста в ссылках. */
+}
+.navigation li a {
+   display: block; /* Изменение отображения на блочное для того чтобы иметь возможность задать внутренние отступы. */
+   padding: 15px 20px;  /* Внутри блочные отступы. */
+   background: #0db5b5; /* Цвет блоков меню. */
+   color: #3f3f3f; /* Цвет текста в блоках меню. */
+   text-decoration: none; /* Устранение подчёркивания ссылок. */
+   position: relative; /* Это необходимо при использовании Internet Explorer 6 для того, чтобы ссылка по всей своей площади была «кликабельной». */
+}
+.navigation li a:hover {
+   background: #92d3d3; /* Цвет блока при наведении курсора. */
+   color: #6b6b6b;  /* Цвет текста при наведении курсора. */
+}
+
+
+.money {
+   list-style: none; /* Отключение отображения маркеров. */
+   width: 100%;
+		margin: 0 auto;
+}
+.money li {
+   float: left; /* Выстраивание элементов списка в один ряд. */
+   font-family: Verdana, Arial, Helvetica, sans-serif; /* Указание типа шрифта. */
+   font-size: 14px; /* Размер текста в ссылках. */
+}
+.money li a {
+   display: block; /* Изменение отображения на блочное для того чтобы иметь возможность задать внутренние отступы. */
+   padding: 15px 20px;  /* Внутри блочные отступы. */
+   background: black; /* Цвет блоков меню. */
+   color: white; /* Цвет текста в блоках меню. */
+   text-decoration: none; /* Устранение подчёркивания ссылок. */
+   position: relative; /* Это необходимо при использовании Internet Explorer 6 для того, чтобы ссылка по всей своей площади была «кликабельной». */
+}
+
+body {
+	background-image: url("images/background/images3.jpg");
+}
+
+#pictures {
+	margin-left: 1%;
+	margin-top: 10%;
+	display: inline;
+	width: 200;
+	height: 400;
+	overflow: scroll;
+	float: left;
+	background: white;
+}
+
+#pictures img{
+	display: inline-block;
+	float: left;
+	padding: 2px;
+}
+
+#pictures img:hover {
+	width: 50%;
+/* 	background: blue;
+ */}
+
+#closes {
+	margin-right: 1%;
+	margin-top: 10%;
+	display: inline;
+	width: 200;
+	height: 400;
+	overflow: scroll;
+	float: left;
+	background: white;
+}
+
+#closes img{
+	display: inline-block;
+	float: left;
+	padding: 2px;
+	width: 45%;
+}
