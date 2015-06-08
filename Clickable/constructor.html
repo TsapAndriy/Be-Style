@@ -1,0 +1,99 @@
+<html>
+<head>
+	<title>Мій сайт</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="commonScript.js"></script>
+</head>
+
+<body onkeydown="bodyKeyDownHandler(event)">
+	<header>
+	<div class="money"> 
+		<span>+380 00 000-23-03</span>
+		<li><a href="" >Оплата</a></li>
+		<li><a href="" >Доставка</a></li>
+		<li><a href="" >Контакти</a></li>
+		<li><a href="" >Вxід/Реєстрація</a></li>
+		<li><a href="" >Корзина</a></li>
+	</div>
+
+	<div class="navigation"> 
+		<div>	<img src="images/logotype/2.bmp" height="60"> </div>
+		<li><a href="index.html" >Магазин</a></li>
+		<li><a href="" >Розпродажа</a></li>
+		<li><a href="" >Конструктор</a></li>
+		<li><a href="" >Опт</a></li>
+	</div>
+	</header>
+	
+	<div id="constructor">
+	
+		<div id="imgMainClose" class="result"> 
+			<div id="imgPositionCloser"></div>
+		</div>		
+	
+		<div class="closer-size">			
+			<div><a href=""> S </a></div>
+			<div><a href=""> M </a></div>
+			<div><a href=""> L </a></div>
+			<div><a href=""> XL </a></div>
+			<div><a href=""> XXL </a></div>	
+		</div>
+		
+		<div class="icons">		
+			<div><a href="javascript: return false;"> <img src="images/icon/zoom-in.png"/> </a></div>
+			<div><a href="javascript: return false;"> <img src="images/icon/zoom-out.png"/> </a></div>
+			<div><a href="javascript: return false;"> <img src="images/icon/bin2.png" onclick="deletePicture()"/> </a></div>
+			<div><a href="javascript: return false;"> <img src="images/icon/shrink.png" /> </a></div>	
+		</div>
+		
+		<select>
+			<option value="1">Інше</option>
+			<option value="2">Спорт</option>
+			<option value="3">Музика</option>
+		</select>
+		
+		<div id=pictures>
+			<div>	<img src="images/emblema/2.png" onclick="addPicture(this)"> </div>
+			<div>	<img src="images/emblema/3.png" onclick="addPicture(this)"> </div>
+			<div>	<img src="images/emblema/4.png" onclick="addPicture(this)"> </div>
+			<div>	<img src="images/emblema/5.png" onclick="addPicture(this)"> </div>
+			<div>	<img src="images/emblema/6.png" onclick="addPicture(this)"> </div>
+			<div>	<img src="images/emblema/7.png" onclick="addPicture(this)"> </div>
+			<div>	<img src="images/emblema/8.png" onclick="addPicture(this)"> </div>
+			<div>	<img src="images/emblema/9.png" onclick="addPicture(this)"> </div>
+			<div>	<img src="images/emblema/10.png" onclick="addPicture(this)"> </div>
+			<div>	<img src="images/emblema/11.png" onclick="addPicture(this)"> </div>
+			<div>	<img src="images/emblema/12.png" onclick="addPicture(this)"> </div>
+			<div>	<img src="images/emblema/13.png" onclick="addPicture(this)"> </div>
+			<div>	<img src="images/emblema/14.png" onclick="addPicture(this)"> </div>
+			<div>	<img src="images/emblema/15.png" onclick="addPicture(this)"> </div>
+			<div>	<img src="images/emblema/16.png" onclick="addPicture(this)"> </div>
+			<div>	<img src="images/emblema/17.png" onclick="addPicture(this)"> </div>
+			<div>	<img src="images/emblema/18.png" onclick="addPicture(this)"> </div>
+			<div>	<img src="images/emblema/19.png" onclick="addPicture(this)"> </div>
+			<div>	<img src="images/emblema/20.png" onclick="addPicture(this)"> </div>		
+		</div>
+	
+		<div id=closes>
+				<div>	<img src="images/closes/1.png" onclick="changeCloses(this)"> </div>
+				<div>	<img src="images/closes/2.png" onclick="changeCloses(this)"> </div>
+				<div>	<img src="images/closes/3.png" onclick="changeCloses(this)"> </div>
+				<div>	<img src="images/closes/4.png" onclick="changeCloses(this)"> </div>
+				<div>	<img src="images/closes/5.png" onclick="changeCloses(this)"> </div>
+				<div>	<img src="images/closes/6.png" onclick="changeCloses(this)"> </div>
+				<div>	<img src="images/closes/7.png" onclick="changeCloses(this)"> </div>
+				<div>	<img src="images/closes/8.png" onclick="changeCloses(this)"> </div>
+				<div>	<img src="images/closes/9.png" onclick="changeCloses(this)"> </div>
+				<div>	<img src="images/closes/10.png" onclick="changeCloses(this)"> </div>
+				<div>	<img src="images/closes/11.png" onclick="changeCloses(this)"> </div>
+				<div>	<img src="images/closes/12.png" onclick="changeCloses(this)"> </div>
+				<div>	<img src="images/closes/13.png" onclick="changeCloses(this)"> </div>
+				<div>	<img src="images/closes/14.png" onclick="changeCloses(this)"> </div>
+		</div>
+	</div>
+	
+	<footer>
+	</footer>
+</body>
+</html>

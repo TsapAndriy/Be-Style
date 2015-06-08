@@ -1,0 +1,42 @@
+
+.margin_r20 { margin-right: 20px; }
+
+.product_box {
+	float: left;
+	width: 223px;
+	padding: 10px;
+	margin-bottom: 20px;
+	border: 1px solid #CCC;
+	text-align: center;
+}
+
+.product_box img {
+	margin-bottom: 10px;
+}
+
+.product_box h3 {
+	color: #2a2522;
+	font-size: 12px;
+	margin: 0 0 10px;
+}
+
+.product_box p {
+	margin-bottom: 10px;
+}
+
+.product_box p span {
+	color: #cf5902;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.product_box .detail {
+	float: right;
+}
+
+#content_middle {
+	
+	width: 1000px;
+	padding: 10% 20%;
+	text-align: justify;
+}

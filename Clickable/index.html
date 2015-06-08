@@ -3,8 +3,11 @@
 	<title>Мій сайт</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="shop-style.css">
+	<script src="commonScript.js"></script>
 </head>
-<body>
+
+<body onkeydown="bodyKeyDownHandler(event)">
 	<header>
 	<div class="money"> 
 		<span>+380 00 000-23-03</span>
@@ -14,76 +17,42 @@
 		<li><a href="" >Вxід/Реєстрація</a></li>
 		<li><a href="" >Корзина</a></li>
 	</div>
-
+                
 	<div class="navigation"> 
 		<div>	<img src="images/logotype/2.bmp" height="60"> </div>
 		<li><a href="" >Магазин</a></li>
 		<li><a href="" >Розпродажа</a></li>
-		<li><a href="" >Конструктор</a></li>
+		<li><a href="constructor.html" >Конструктор</a></li>
 		<li><a href="" >Опт</a></li>
 	</div>
 	</header>
 	
-	<div id="constructor">
-		<div class=result>
-			<img src="images/closes/1.png">
-		</div>
-		
-	
-		<div class="closer-size">			
-			<div><a href=""> S </a></div>
-			<div><a href=""> M </a></div>
-			<div><a href=""> L </a></div>
-			<div><a href=""> XL </a></div>
-			<div><a href=""> XXL </a></div>	
-		</div>
-		
-		<div class="icons">		
-			<div><a href=""> <img src="images/icon/zoom-in.png" width="50"/> </a></div>
-			<div><a href=""> <img src="images/icon/zoom-out.png" width="50"/> </a></div>
-			<div><a href=""> <img src="images/icon/bin2.png" width="50"/> </a></div>
-			<div><a href=""> <img src="images/icon/shrink.png" width="50"/> </a></div>	
-		</div>
-		
-		<div id=pictures>
-			<div>	<img src="images/emblema/2.png" width="50"> </div>
-			<div>	<img src="images/emblema/3.png" width="50"> </div>
-			<div>	<img src="images/emblema/4.png" width="50"> </div>
-			<div>	<img src="images/emblema/5.png" width="50"> </div>
-			<div>	<img src="images/emblema/6.png" width="50"> </div>
-			<div>	<img src="images/emblema/7.png" width="50"> </div>
-			<div>	<img src="images/emblema/8.png" width="50"> </div>
-				<div>	<img src="images/emblema/9.png" width="50"> </div>
-				<div>	<img src="images/emblema/10.png" width="50"> </div>
-				<div>	<img src="images/emblema/11.png" width="50"> </div>
-				<div>	<img src="images/emblema/12.png" width="50"> </div>
-				<div>	<img src="images/emblema/13.png" width="50"> </div>
-				<div>	<img src="images/emblema/14.png" width="50"> </div>
-				<div>	<img src="images/emblema/15.png" width="50"> </div>
-				<div>	<img src="images/emblema/16.png" width="50"> </div>
-				<div>	<img src="images/emblema/17.png" width="50"> </div>
-				<div>	<img src="images/emblema/18.png" width="50"> </div>
-				<div>	<img src="images/emblema/19.png" width="50"> </div>
-				<div>	<img src="images/emblema/20.png" width="50"> </div>		
-		</div>
-	
-		<div id=closes>
-				<div>	<img src="images/closes/1.png" width="50"> </div>
-				<div>	<img src="images/closes/2.png" width="50"> </div>
-				<div>	<img src="images/closes/3.png" width="50"> </div>
-				<div>	<img src="images/closes/4.png" width="50"> </div>
-				<div>	<img src="images/closes/5.png" width="50"> </div>
-				<div>	<img src="images/closes/6.png" width="50"> </div>
-				<div>	<img src="images/closes/7.png" width="50"> </div>
-				<div>	<img src="images/closes/8.png" width="50"> </div>
-				<div>	<img src="images/closes/9.png" width="50"> </div>
-				<div>	<img src="images/closes/10.png" width="50"> </div>
-				<div>	<img src="images/closes/11.png" width="50"> </div>
-				<div>	<img src="images/closes/12.png" width="50"> </div>
-				<div>	<img src="images/closes/13.png" width="50"> </div>
-				<div>	<img src="images/closes/14.png" width="50"> </div>
-		</div>
-	</div>
+		<center>
+			<div id="content_top"></div>
+			
+            <div id="content_middle">
+                <div class="product_box">
+            		<a href=""><img src="images/closes/1.png"  width="220" /></a>
+                      <h3>Футболка</h3>
+                       	<p class="price"> <span>250грн</span></p>
+                </div>
+                    
+			    <div class="product_box">                    
+                    <a href=""><img src="images/closes/10.png"  width="220" /></a>
+					<h3>Спортивна куртака</h3>
+                    <p class="price"> <span>620грн</span></p>
+				</div>                    
+                    
+                <div class="product_box">            	
+                	<a href="" target=""><img src="images/closes/12.png"  width="220" /></a>
+                    <h3>Джемпер</h3>
+                   	<p class="price"> <span>430грн</span></p>                        
+                </div>   				
+                    
+                <div class="cleaner"></div>                            
+            </div>			
+		</center>
+
 	
 	<footer>
 	</footer>
