@@ -82,6 +82,7 @@ header {
 	background-image: url(images/closes/1.png);	
 }
 #imgPositionCloser {
+    display: block;
 	width: 150px; 
 	height: 220px; 
 	border: solid 1px gray;
@@ -89,6 +90,9 @@ header {
 	left: 30%;
 	top: 25%;	
 	overflow: hidden;
+}
+#imgPositionCloser img {
+	position: relative;
 }
 
 .icons {
@@ -129,6 +133,15 @@ header {
    text-decoration: none;
 }
 .closer-size div a:hover {
+	border: 1px solid #999;
+}
+
+#basket {
+	position: absolute;
+	bottom: 10;
+	right: 200;
+}
+#basket:hover {
 	border: 1px solid #999;
 }
 
